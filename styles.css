@@ -1,4 +1,18 @@
 body {
         background-color:rgba(255, 255, 0, 0.247);
         color: black
+        margin: 15px;
+        padding: 25px
+}
+
+        header {
+            background-color: 
+            color: pink;
+            border: 10px solid pink; 
+            padding: 10px;
+        }
+        
+        footer {
+           color: blueviolet; 
+        
 }
