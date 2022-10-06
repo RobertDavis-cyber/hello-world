@@ -4,8 +4,12 @@
     <title>My Class 4 & 5 Project</title>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
+    <title>Onclick</title>
     </head>
     <body>
+        <a href="https://www.w3schools.com/html/html_basic.asp"  onclick="alert('Redirecting Introduction to HTML - W3Schools');">
+            w3schools HTML Basic
+        </a>
         <header>
             <h1>HTML for Dummies</h1>
             <script>
@@ -50,7 +54,25 @@
         document.write("Aloha " + usersName + ", Mahalo for looking at my page!");
             </script>
              
-        <footer>&copy;A. Luckenbach & R. Davis, 2022</footer>
+        <footer>&copy;A. Luckenbach & R. Davis, 2022
+            
+            <script>
+                // ask the user a question, assign their response to a variable called 'response'
+                let response = prompt("Are you confused about HTML?");
+                // print message in console
+                console.log("User said: " + response);
+          
+                // CONDITIONAL LOGIC
+                if(response == "Yes"){
+                  document.write("It's ok that's why we will learn together!");
+                } else if (response == "No"){
+                  document.write("Keep ripping and learning!");
+                }      
+            </script>
+            
+                </footer>
+     
+            
         <nav>
 			<a href="https://armonluck.github.io/hello-world/">HTML for Dummies I Armon
             <a href="https://robertdavis-cyber.github.io/hello-world/">HTML for Dummies II Robert  
